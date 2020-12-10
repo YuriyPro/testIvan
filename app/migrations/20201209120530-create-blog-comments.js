@@ -21,7 +21,13 @@ module.exports = {
         type: Sequelize.STRING
       },
       blog_id: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        onDelete: 'CASCADE',
+        references: {
+          model: 'Blog',
+          key: 'blogId',
+          as: 'id',
+        },
       },
       likes: {
         type: Sequelize.INTEGER
