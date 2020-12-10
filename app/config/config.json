@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "ggwark",
+    "password": "Nikulin!@#123",
+    "database": "forumgaluchunu_db_development",
+    "host": "160.153.133.196",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "ggwark",
+    "password": "Nikulin!@#123",
+    "database": "forumgaluchunu_db_test",
+    "host": "160.153.133.196",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "ggwark",
+    "password": "Nikulin!@#123",
+    "database": "forumgaluchunu_db_production",
+    "host": "160.153.133.196",
+    "dialect": "mysql"
+  }
+}
